@@ -1,7 +1,7 @@
 # Network-Programming-Project-2
 
 ## Overview
-In this project, we train the model to detect spam emails and prediction in real-time by using machine learning and stream processing. For the prediction model, we apply the CountVectorizer and Baye’s theorem of conditional probability to determine the possibility of the text message.
+	In this project, we simulate on how to combine stream processing and machine learning together with the email spam detection topic. First, we train the model to detect the spam messages and create two pickle files (.pkl). Then, we use the stream processing to send messages and receive the results in almost real-time duration. In addition, we apply CountVectorizer and Baye’s theorem of conditional probability to determine the possibility of the text message in out prediction model.
  
 ## Requirement
 * Apache Zookeeper
