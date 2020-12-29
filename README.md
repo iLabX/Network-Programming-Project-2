@@ -4,14 +4,15 @@
 In this project, we train the model to detect spam emails and prediction in real-time by using machine learning and stream processing. For the prediction model, we apply the CountVectorizer and Baye’s theorem of conditional probability to determine the possibility of the text message.
  
 ## Requirement
-* Apache zookeeper
+* Apache Zookeeper
 * Apache Kafka
-* pandas
-* nltk (Natural Language Toolkit)
-* pickle
-* sklearn
-* Faust
-* confluent Kafka
+* Python Libraries
+ * pandas
+ * nltk (Natural Language Toolkit)
+ * pickle
+ * sklearn
+ * Faust
+ * confluent Kafka
 
 ## Data
 We used the SMS Spam Collection. It simulates SMS tagged messages that have been collected for SMS Spam research.\
@@ -21,7 +22,7 @@ https://www.kaggle.com/uciml/sms-spam-collection-dataset
 ## Code Execution
 1. execute spam_model.py\
       $ python3 spam_model.py
-2. open zookeeper\
+2. open Zookeeper\
       $ bin/zookeeper-server-start.sh config/zookeeper.properties
 3. open Kafka\
       $ bin/kafka-server-start.sh config/kafka.properties
