@@ -1,7 +1,8 @@
 # Network-Programming-Project-2
 
 ## Overview
-
+In this project, we train the model to detect spam emails and prediction in real-time by using machine learning and stream processing. For the prediction model, we apply the CountVectorizer and Baye’s theorem of conditional probability to determine the possibility of the text message.
+ 
 ## Requirement
 * Apache zookeeper
 * Apache Kafka
@@ -19,14 +20,14 @@ https://www.kaggle.com/uciml/sms-spam-collection-dataset
 
 ## Code Execution
 1. execute spam_model.py\
-      $ python3 spam_model.py<br>
+      $ python3 spam_model.py
 2. open zookeeper\
-      $ bin/zookeeper-server-start.sh config/zookeeper.properties<br>
+      $ bin/zookeeper-server-start.sh config/zookeeper.properties
 3. open Kafka\
-      $ bin/kafka-server-start.sh config/kafka.properties<br>
+      $ bin/kafka-server-start.sh config/kafka.properties
 4. create a topic\
-      $ bin/kafka-topics.sh --create --topic spamchecker --bootstrap-server localhost:9092<br>
+      $ bin/kafka-topics.sh --create --topic spamchecker --bootstrap-server localhost:9092
 5. execute spam_consumer.py\
-      $ faust -A spam_consumer worker -l info<br>
+      $ faust -A spam_consumer worker -l info
 6.  execute spam_producer.py\
       $ python3 spam_producer.py
