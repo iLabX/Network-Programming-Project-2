@@ -3,14 +3,14 @@
 ## Overview
 
 ## Requirement
-* confluent Kafka
-* nltk (Natural Language Toolkit)
-* Faust
+* Apache zookeeper
+* Apache Kafka
 * pandas
+* nltk (Natural Language Toolkit)
 * pickle
 * sklearn
-* zookeeper
-* Kafka
+* Faust
+* confluent Kafka
 
 ## Data
 We used the SMS Spam Collection. It simulates SMS tagged messages that have been collected for SMS Spam research.\
@@ -20,7 +20,6 @@ https://www.kaggle.com/uciml/sms-spam-collection-dataset
 ## Code Execution
 1. execute spam_model.py\
   $ python3 spam_model.py
-  
 2. open zookeeper\
   $ bin/zookeeper-server-start.sh config/zookeeper.properties
 3. open Kafka\
