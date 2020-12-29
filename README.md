@@ -1,7 +1,7 @@
 # Network-Programming-Project-2
 
 ## Overview
-In this project, we simulate on how to combine stream processing and machine learning together with the email spam detection topic. First, we train the model to detect the spam messages and create two pickle files (.pkl). Then, we use the stream processing to load the pickle files, send messages and receive the results in almost real-time duration. In addition, we apply CountVectorizer and Baye’s theorem of conditional probability to determine the possibility of the text message in out prediction model.
+In this project, we simulate on how to combine stream processing and machine learning together with the **email spam detection** topic. First, we train the model to detect the spam messages and create two pickle files (.pkl). Then, we use the stream processing to load the pickle files, send messages and receive the results in almost real-time duration. In addition, we apply CountVectorizer and Baye’s theorem of conditional probability to determine the possibility of the text message in out prediction model.
  
 ## Requirement
 * Apache Zookeeper
@@ -15,7 +15,7 @@ In this project, we simulate on how to combine stream processing and machine lea
 	* confluent Kafka
 
 ## Data
-We used the SMS Spam Collection. It simulates SMS tagged messages that have been collected for SMS Spam research.\
+We used the SMS Spam Collection **(spam.csv)**. It simulates SMS tagged messages that have been collected for SMS Spam research.\
 It is a collection of 5573 English SMS messages and legally tagged spam and ham.\
 https://www.kaggle.com/uciml/sms-spam-collection-dataset
 
