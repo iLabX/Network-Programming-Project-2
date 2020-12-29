@@ -7,12 +7,12 @@ In this project, we train the model to detect spam emails and prediction in real
 * Apache Zookeeper
 * Apache Kafka
 * Python Libraries
- * pandas
- * nltk (Natural Language Toolkit)
- * pickle
- * sklearn
- * Faust
- * confluent Kafka
+** pandas
+** nltk (Natural Language Toolkit)
+** pickle
+** sklearn
+** Faust
+** confluent Kafka
 
 ## Data
 We used the SMS Spam Collection. It simulates SMS tagged messages that have been collected for SMS Spam research.\
